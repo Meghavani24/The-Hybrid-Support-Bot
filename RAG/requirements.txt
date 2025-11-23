@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.2.1
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4
+pymupdf==1.24.2
+scikit-learn==1.4.1
+requests==2.31.0
+ipywidgets==8.1.2
+jupyter==1.0.0
