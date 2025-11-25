@@ -50,18 +50,35 @@ answer_query("How do I adjust the seats?", chapter="Before Driving")
 📂 Repository Structure:
 
 project/
+
 │
+
 ├─ data/
+
 │   └─ honda_manual.pdf
+
 │
+
+
 ├─ index/
+
 │   └─ amaze_index.faiss
+
 │   └─ amaze_meta.pkl
+
 │
+
+
 ├─ rag_emb.py        → Embedding model
+
 ├─ rag_ingest.py     → PDF ingestion + chunking
+
 ├─ rag_index.py      → Build index (semantic + BM25)
+
 ├─ rag_query.py      → Hybrid search + LLM + threshold + logging
+
 │
+
 ├─ requirements.txt
+
 └─ README.md
